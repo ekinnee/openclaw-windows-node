@@ -1,0 +1,61 @@
+{
+  "observedUtc": "2026-10-19T16:38:39.9774554Z",
+  "head": "8cbdf0e93fdf32c837f550e9ba8083bcfe8a1eca",
+  "stable": "v2026.9.8-1",
+  "settingsCount": 67,
+  "settingsChangedCount": 0,
+  "gatewayCountBefore": 1,
+  "gatewayCountAfter": 1,
+  "missingGatewayRecords": 0,
+  "activeGatewayPreserved": true,
+  "gatewayChangedFieldNames": [
+    "lastConnected"
+  ],
+  "connectionStatuses": [
+    "Connecting",
+    "Connected"
+  ],
+  "identityFilesUnchanged": true,
+  "originalProfileUnchanged": true,
+  "defaultThreadPreserved": true,
+  "visibleHeadActiveProof": "Developer screenshot: connected current-head About and readable active sidebar.",
+  "visibleHeadArchivedProof": "Developer screenshot: Settings > Sessions > Archived loaded with readable existing names and connected status.",
+  "route": "Portable stable-to-head, same copied profile. No installer or updater exercised.",
+  "headActiveScreenshot": {
+    "file": "head-about-and-sidebar-after.png",
+    "sha256": "0e5b44c4d0adaf3c917fb12c9c1a4fbe8ae9c7f5fb3b8af13e1a88f038fd0e4a",
+    "bytes": 185239
+  },
+  "newSettingsCount": 0,
+  "identityFileCount": 7,
+  "candidateSourceFilesVerified": 5,
+  "screenshotManifest": [
+    {
+      "file": "head-about-and-sidebar-after.png",
+      "sha256": "0e5b44c4d0adaf3c917fb12c9c1a4fbe8ae9c7f5fb3b8af13e1a88f038fd0e4a",
+      "bytes": 185239,
+      "provenance": "Developer-provided screenshot, unchanged by agent"
+    },
+    {
+      "file": "head-archived-after.png",
+      "sha256": "1921edd9fb2522d7a9e9f35df8da6dd0e9533d5f8a0c926ba60c60c8e0664414",
+      "bytes": 97880,
+      "provenance": "Developer-provided screenshot, unchanged by agent"
+    },
+    {
+      "file": "stable-about-and-sidebar-before.png",
+      "sha256": "8ffafd060c9aabfebc0640378f16db89e04174588b07eca15ff0195916c2c3d9",
+      "bytes": 172657,
+      "provenance": "Developer-provided screenshot, unchanged by agent"
+    }
+  ],
+  "registryStructurallyUnchangedExceptLastConnected": true,
+  "stableCommit": "2ba89f377ce8ce3f5ddfc452e4d509329f109114",
+  "stableArchiveSha256": "c50955809afdd07c0d2c17f30bf7c45cf06bed09d751a915bd92945be27f2047",
+  "containmentOverrides": [
+    "EnableNodeMode=false",
+    "AutoStart=false",
+    "EnableManagedLocalGatewayAutoRepair=false"
+  ],
+  "preservationScope": "67 stable-run settings, saved Gateway record and credentials, seven identity files, selected thread, and visible existing conversations. Full server inventory was not enumerated."
+}
